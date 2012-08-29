@@ -1,0 +1,1 @@
+Small script to import a list of tickets from Pivotal Tracker to Github. In fact I'm using a CVL as a source so you can import tickets from whatever you want if you can have export there a CSV file.

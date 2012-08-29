@@ -1,0 +1,428 @@
+Id,Story,Labels,Iteration,Iteration Start,Iteration End,Story Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Owned By,Description,URL,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status
+26485703,MàJ doc des données,"",3,"Apr 23, 2012","Apr 29, 2012",chore,,started,"Mar 15, 2012",,,Philippe Larcher,Philippe Larcher,,http://www.pivotaltracker.com/story/show/26485703
+26485745,réalisation des balsamic manquants pour les premiers MS,"",3,"Apr 23, 2012","Apr 29, 2012",chore,,started,"Mar 15, 2012",,,Philippe Larcher,Philippe Larcher,les balsamiq donne la navigation générale et le degré de complexité des stories liées mais peuvent évoluer jusqu'au jour j,http://www.pivotaltracker.com/story/show/26485745,,,,,,,,,,,,,,homepage,completed,ecrans de creation de compte,completed,ecrans de creation de personne morale,not completed,ecrans de creation d'activité Ambassade,completed,ecrans de creation d'activité Spécialiste (privé+public),completed,menu / navigation des pros,completed,fixer les tarifs conseilles de lambassade,completed,ecran de profil public de l'Ambassade,completed,choix de l'ambassade,completed,liste des Spécialistes,completed,villes d'intervention du Spé,completed,choix des compétences du Spé,completed,ecran de réglage des tarifs du Spé,completed,scénario d'ouverture/fermeture de créneaux ponctuels par Spé,completed,choisir / chercher un établissement (pour l'Amb),completed,Paiement / finalisation,not completed,les commande en cours pour mon ambassade (pour multisoin?),not completed
+26192339,"authentification, sécurité, internationalisation","",3,"Apr 23, 2012","Apr 29, 2012",chore,,started,"Mar 9, 2012",,,Philippe Larcher,David Bourguignon,"prévoir multilangues
+prevoir multidevises
+prevoir multi tva
+
+Donnée de login : email principal",http://www.pivotaltracker.com/story/show/26192339,,,,,,,,,,,,,,choisir une donnée de login (mail ? pseudo ? tel ?),completed
+28073335,Choisir un système de BO évolutif et rapide à mettre en oeuvre,"",3,"Apr 23, 2012","Apr 29, 2012",chore,,started,"Apr 16, 2012",,,Philippe Larcher,David Bourguignon,"active admin ? http://activeadmin.info/
+bootstrap ""de base"" + a la mano ? http://bootswatch.com/
+template boostrap déjà mis en page ? http://wrapbootstrap.com/theme/new-system-admin-backend-WB00C6481 ,  http://wrapbootstrap.com/theme/akira-admin-theme-WB0070A9H",http://www.pivotaltracker.com/story/show/28073335
+26416383,En tant qu'Admin je souhaite pouvoir CRUDer les principales entités de l'application afin d'avoir des bases de données vivantes,"",3,"Apr 23, 2012","Apr 29, 2012",feature,5,started,"Mar 14, 2012",,,Philippe Larcher,David Bourguignon,"::::::::::::::::::::::  Références  :::::::::::::::::::::: 
+> voir la liste des données/objet
+> voir maquettes
+
+::::::::::::::::::::::  Les entités  :::::::::::::::::::::: 
+•	Admin Pays / Lieu + import donnée
+•	Admin Thèmes + prestations
+•	Admin Société/Prestataire/Etablissements
+•	Admin ambassadeurs
+•	Admin Utilisateurs/Rôles/Acteurs
+•	Admin Clients/Adresses ",http://www.pivotaltracker.com/story/show/26416383,,,,,,,,,,,,,,MàJ liste des données/objets,not completed,finalisation balsamic formulaires,not completed
+26192313,Milestone 0 : Démarrage,"",3,"Apr 23, 2012","Apr 29, 2012",release,,unstarted,"Mar 9, 2012",,"Apr 20, 2012",Philippe Larcher,,,http://www.pivotaltracker.com/story/show/26192313
+25989221,moyen de securiser la saisie d'une ville avec autocompletion,"",3,"Apr 23, 2012","Apr 29, 2012",chore,,started,"Jul 22, 2011",,,Philippe Larcher,David Bourguignon,"http://www.tbcn.ca/ruby_geonames
+
+les arrondissements sont ils bien gérés pour geoname (inclus marseille) ? => oui
+Sinon voir google map = toutes les rues",http://www.pivotaltracker.com/story/show/25989221,"Système d'autocomp sur toutes les villes à creuser... (philippe larcher - Jul 26, 2011)","http://www.geonames.org/export/
+http://forum.geonames.org/gforum/posts/list/46.page
+http://www.tbcn.ca/ruby_geonames
+http://professionnels.ign.fr/ficheProduitCMS.do?idDoc=5323862#top
+http://www.movable-type.co.uk/scripts/latlong.html
+http://www.weboblog.fr/recuperer-departement-et-pays-google-map
+ (philippe larcher - Jul 26, 2011)","Suisse :
+http://developer.local.ch/fr/api/examples/city_autocompletion (philippe larcher - Jul 26, 2011)","http://google-maps-api-version-2.touraineverte.com/aide-documentation-exemple-tutoriel-didacticiel/geocodeur/auto-completion-completer-suggerer-suggestion/adresse-postale-mini-carte-statique-geocodeur/geo-complete-google-static-map-google-maps.htm
+ (philippe larcher - Jul 26, 2011)","l'API geonames est à la fois simple à utiliser et adaptée à notre besoin au niveau des licences
+
+>> Pas de gaspi si on est sûrs d'utiliser google map plus tard ? (distances, temps de trajet...) (Philippe Larcher - Mar 14, 2012)"
+28359625,"presenter les ""clef"" de l'import de la base users à Novelys","",3,"Apr 23, 2012","Apr 29, 2012",chore,,started,"Apr 20, 2012",,,Philippe Larcher,Philippe Larcher,"
+",http://www.pivotaltracker.com/story/show/28359625,,,,,,,,,,,,,,relation entre les en tetes de bdd et les balsamic ?,not completed,"tags à utiliser pour les ""roles""",not completed,trouver un nom pour activités/roles,not completed
+25989223,En tant que Utilisateur je souhaite interroger une base de données quand je saisis une adresse afin de ne pas commettre d'erreur / doublon,"",3,"Apr 23, 2012","Apr 29, 2012",feature,5,unstarted,"Aug 1, 2011",,,Philippe Larcher,,"
+> l'adresse d'une structure
+> le lieu des soins à domicile (adresses des clients)
+",http://www.pivotaltracker.com/story/show/25989223,,,,,,,,,,,,,,les lieux choisis par l'ambassadeur seront des lieux recommandés et non exhaustifs ?,not completed
+25989241,"En tant que Utilisateur, je souhaite laisser mon avis et signaler des bugs","",3,"Apr 23, 2012","Apr 29, 2012",feature,3,unstarted,"Jun 29, 2011",,,Philippe Larcher,,"> uservoice ?
+> getsatisfaction
+> outil installé et gratuit ?",http://www.pivotaltracker.com/story/show/25989241,,,,,,,,,,,,,,"voir s'il existe des outils ""installés"" gratuits",not completed
+25989235,"En tant que Utilisateur, je souhaite saisir des n° de tel internationaux ""machine readable"" sans risque d'erreur afin d'avoir une bdd propre","",3,"Apr 23, 2012","Apr 29, 2012",feature,3,unstarted,"Jul 29, 2011",,,Philippe Larcher,,"Lors du choix du pays : afficher l'indicatif et ne pas le laisser saisir par l'utilisateur
+> voir covoiturage.fr",http://www.pivotaltracker.com/story/show/25989235,"pas besoin d'un spike : lors du choix du pays : afficher l'indicatif et ne pas le laisser saisir par l'utilisateur. (Guillaume Hammadi - Aug 1, 2011)","On a besoin d'une liste exhaustive des pays que vous voulez couvrir. (Guillaume Hammadi - Aug 1, 2011)","Existe-til des set de données tout prets avec tous les pays ? (philippe larcher - Aug 1, 2011)","http://fr.wikipedia.org/wiki/Liste_des_indicatifs_t%C3%A9l%C3%A9phoniques_internationaux_par_pays (Guillaume Hammadi - Aug 1, 2011)","objectif : avoir une bdd clean et standardisée. Ex. covoiturage (liste deroulante du pays et indicatif auto). (Guillaume Hammadi - Aug 1, 2011)"
+27984051,En tant que Admin je souhaite voir des statistiques de trafic afin d'améliorer mon site,"",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Apr 13, 2012",,,Philippe Larcher,,google analytics,http://www.pivotaltracker.com/story/show/27984051,,,,,,,,,,,,,,fournir la clef du compte LBS à Novelys,not completed
+27521897,En tant que Admin je souhaite connaitre le taux d'utilisation des différentes fonctions de mon appli afin de l'améliorer,"",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Apr 4, 2012",,,Philippe Larcher,,"http://www.railstat.com/
+www.openwebanalytics.com (php)
+http://blog.websourcing.fr/goingup-webware-statistiques-web-seo/
+
+:::: SPLIT TEST :::
+http://visualwebsiteoptimizer.com/
+https://github.com/gregdingle/genetify/wiki/
+http://www.google.fr/intl/fr/websiteoptimizer/beginnersguide/
+",http://www.pivotaltracker.com/story/show/27521897,,,,,,,,,,,,,,choisir un outil,not completed
+25989197,Importer la bdd des Escales (catalogue),"",3,"Apr 23, 2012","Apr 29, 2012",chore,,unstarted,"Jun 29, 2011",,,Philippe Larcher,,voir fichier xlsx bdd catalogue soins (escales),http://www.pivotaltracker.com/story/show/25989197,"nous fournir un fichier avant le commencement (format à définir : CSV ?) (David Bourguignon - Apr 3, 2012)"
+25989201,Importer la bdd users,"",3,"Apr 23, 2012","Apr 29, 2012",chore,,unstarted,"Aug 22, 2011",,,Philippe Larcher,,"contient prospects,  clients, pros et particuliers.
+
+Voir fichier xlsx : bdd clients et prospects master",http://www.pivotaltracker.com/story/show/25989201,"nous fournir un fichier avant le commencement (format à définir : CSV ?) (David Bourguignon - Apr 3, 2012)"
+26192377,Milestone 1 : Back Office ,"",3,"Apr 23, 2012","Apr 29, 2012",release,,unstarted,"Mar 9, 2012",,"Apr 27, 2012",Philippe Larcher,,"Contenu : 
+•	Mise en place du rôle admin + back office (1 jour)
+•	Admins (6 jours)
+•	Admin Pays / Lieu + import donnée
+•	Admin Thèmes + prestations
+•	Admin Société/Prestataire/Etablissements
+•	Admin ambassadeurs
+•	Admin Utilisateurs/Rôles/Acteurs
+•	Admin Clients/Adresses 
+•	Thème graphique (2 jours)
+•	Import base de données (villes françaises et leur code postal, clients, prestataires) 1 jour
+
+Comment cela va se passer ? 
+
+Cette milestone verra la mise en place de la partie administration du site permettant de gérer les données et contenus.
+
+Le thème graphique général sera implémenté permettant de rendre le backoffice attrayant et de préparer l'arrivée du Front Office. On verra ainsi le design général de l'application mis en place et les principaux éléments graphique du site.
+
+Cette version sera disponible sur le staging.
+",http://www.pivotaltracker.com/story/show/26192377
+26417019,En tant que (futur) Utilisateur je souhaite créer un compte,"",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Mar 14, 2012",,,Philippe Larcher,,"> dissocier la/les personne morales du compte (personne physique) afin de pouvoir en gerer plusieurs
+> tel et/ou email obligatoire
+> voir balsamic ?",http://www.pivotaltracker.com/story/show/26417019
+26437325,En tant que Pro je souhaite créer une personne morale (?),"",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Mar 14, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/26437325
+25989155,En tant qu'Ambassadeur je souhaite CRUDer une Ambassade,"",3,"Apr 23, 2012","Apr 29, 2012",feature,2,unstarted,"Jun 30, 2011",,,Philippe Larcher,,"voir balsamic
+voir liste des données
+
+> dissocier la/les personne morales de l'activité (ambassade, spécialiste, prescripteur...) afin de pouvoir en gerer plusieurs",http://www.pivotaltracker.com/story/show/25989155
+27453309,"En tant que Admin je souhaite empêcher un Ambassadeur d’être visible des Clients tant qu'il ne satisfait pas aux conditions afin d'avoir des Ambassadeurs ""viables""","",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Apr 3, 2012",,,Philippe Larcher,,"> plutôt manuel pour éviter les exceptions, si on fait auto il faut surement prevoir un débrayage manuel
+> 3 Spé ds l'équip
+> 3 Prescripteur parainés
+> Pas ou plus d'activité Spécialiste active",http://www.pivotaltracker.com/story/show/27453309
+27453531,En tant que Client je souhaite trouver les coordonnées d'un Ambassadeur via google ou la navigation du site afin de prendre un rdv,"",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Apr 3, 2012",,,Philippe Larcher,,"page de profil minimaliste (utiliser standard bootstrap)
+",http://www.pivotaltracker.com/story/show/27453531
+27221805,"En tant qu'Ambassadeur je souhaite indiquer les tarif conseillés dans mon Ambassade, pour chaque niveau de compétence (Junior/senior/master), afin de guider les Spécialistes face au marché local","",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Mar 29, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/27221805
+26191929,En tant que Spécialiste je souhaite CRUDer une activité de Spécialiste,"",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Mar 9, 2012",,,Philippe Larcher,,"-lieux d'intervention parmi ceux de l'ambassade (only?)
+-soins maîtrises
+-tarif horaire nominal et mini
+-infos administratives
+-infos commerciales
+> voir docs liste des données/objet",http://www.pivotaltracker.com/story/show/26191929
+25989163,"En tant que Spécialiste, je souhaite choisir une Ambassade afin de bénéficier de son accompagnement et gestion de planning","",3,"Apr 23, 2012","Apr 29, 2012",feature,3,unstarted,"Jun 29, 2011",,,Philippe Larcher,,"> possibilité de changer ""à volonté""
+> via forum ou url + profil ambassadeur + lien ""choisir"" (?)",http://www.pivotaltracker.com/story/show/25989163
+25989215,En tant qu'Ambassadeur je dois valider l'adhésion de nouveaux Spécialistes à mon Ambassade afin de pouvoir commencer à bosser,"",3,"Apr 23, 2012","Apr 29, 2012",feature,5,unstarted,"Jul 20, 2011",,,Philippe Larcher,,dans la liste des spécialistes,http://www.pivotaltracker.com/story/show/25989215
+27774189,En tant que Spécialiste je souhaite sélectionner les établissements où je souhaite intervenir,"",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Apr 10, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/27774189
+27774225,En tant que Structure je souhaite accepter ou refuser/supprimer les Spécialistes qui souhaitent travailler chez moi afin de maîtriser l'équipe recue,"",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Apr 10, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/27774225
+25989213,En tant qu'Ambassadeur je peux supprimer des Spécialistes de mon Ambassade afin de garder une équipe à jour,"",3,"Apr 23, 2012","Apr 29, 2012",feature,3,unstarted,"Jul 20, 2011",,,Philippe Larcher,,"séparation, le spécialiste retrouve son etat initial ""sans ambassade"" et doit en choisir une autre pour recommencer à travailler",http://www.pivotaltracker.com/story/show/25989213,"Suppression impossible tant qu'il reste des réservations non exécutées (Guillaume Hammadi - Aug 1, 2011)"
+25989217,En tant que Spécialiste je souhaite voir mon planning,"",3,"Apr 23, 2012","Apr 29, 2012",feature,5,unstarted,"Jun 28, 2011",,,Philippe Larcher,,voir maquettes,http://www.pivotaltracker.com/story/show/25989217
+25989273,"En tant que Spécialiste, je souhaite créer une ""semaine type"" afin d'indiquer mes disponibilités habituelles en quelques clics","",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Jul 29, 2011",,,Philippe Larcher,,"> voir maquettes
+> indispo tant qu'aucune semaine type n'est créée
+> alerte mail / sms/ planning et alerte ambassade en dernier recours si une période sans semaine type paramétrée approche",http://www.pivotaltracker.com/story/show/25989273
+26416631,En tant que Spécialiste je souhaite ouvrir et fermer des créneaux pour une gestion plus fine que les semaines types,"",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Mar 14, 2012",,,Philippe Larcher,,"> idem google agenda : clic sur la page de l'agenda et fermeture/ouverture de crénaux ponctuels.
+
+> Lors d'une modification des disponibilités d'un spécialiste, celui-ci ne devrait avoir un message d'erreur que si sa modification de créneaux est en conflit direct avec une réservation
+En tant que Spécialiste, je souhaite connaitre la date et h de la réservation qui m'empeche de fermer une disponibilité
+
+> En tant que admin HomeSpa, je souhaite empêcher la modification des disponibilités passées par un Spécialiste. Tant que ce point n'est pas réalisé, le calcul de la dispo hebdomadaire moyenne (et les bonus liés) est complètement manipulable par tout spécialiste.",http://www.pivotaltracker.com/story/show/26416631,"1.	Je clique sur le bouton ouvrir/fermer un créneau dans mon planning (si possible clic directement dans l’agenda)
+2.	Je rempli la date et l’heure de début et de fin
+a.	Message d’erreur en cas de rdv validé sur la période
+3.	J’indique le nom du créneau et peut détailler le motif de fermeture ou d’ouverture
+4.	Je valide
+5.	Retour à l’agenda, je vois le créneau modifié différent de la semaine type (Philippe Larcher - Apr 4, 2012)"
+25989229,En tant que Spécialiste je souhaite voir ma disponibilité moyenne horaire hebdomadaire (sur 1 mois?) afin d'anticiper mes bonus,"",3,"Apr 23, 2012","Apr 29, 2012",feature,8,unstarted,"Aug 2, 2011",,,Philippe Larcher,,"janvier : 35h/sem fevrier : 60h/sem etc.
+Homespa voit :
+- pour chaque spécialiste, 
+- que celui-ci ait modifié les disponibilités par défaut ou non, 
+- pour (à décider ?) le mois courant, le mois courant et les 2  mois suivants, ou que ne sais-je.
+le nombre d'heures dispos hebdomadaire moyen.
+ce qui permettra le calcul du bonus courant au moment de la résa
+
+Pour l'instant on peut définir nos disponibilités à l'infini, donc on ne peut pas envisager de voir toutes les dispos moyennes.",http://www.pivotaltracker.com/story/show/25989229
+26485933,"En tant que Spécialiste je souhaite indiquer contractuellement que je suis d'accord pour offrir X gratuités aux : journalistes, prescripteurs...","",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Mar 15, 2012",,,Philippe Larcher,,il faut que l'Amb puisse trouver des spécialistes ok pour gratuités (icone ? filtre ? ...?),http://www.pivotaltracker.com/story/show/26485933
+26416733,"En tant que Pro je souhaite CRUDer une activité de Prescripteur afin d'être rémunéré quand je ""partage"" mes clients","",3,"Apr 23, 2012","Apr 29, 2012",feature,,unstarted,"Mar 14, 2012",,,Philippe Larcher,,"En tant que Prescripteur, je dois saisir l'email de mon parrain pour identifier ce dernier à la création de mon profil. (possibilité de modifier ultérieurement)
+
+""entrez l'email de votre parrain""
+ATTENTIOn le prescripteur ne peut pas etre son propre parrain ! (meme sil a dautres activités ??)",http://www.pivotaltracker.com/story/show/26416733
+25989159,En tant que Pro je souhaite CRUDer une activité de Structure d'accueil afin d'être rémunéré quand un soin se déroule dans un lieu que je gère,"",3,"Apr 23, 2012","Apr 29, 2012",feature,2,unstarted,"Jul 11, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989159
+26192565,Milestone 2 : Front Office ,"",3,"Apr 23, 2012","Apr 29, 2012",release,,unstarted,"Mar 9, 2012",,"May 4, 2012",Philippe Larcher,,"Contenu :
+• Navigation générale (2 jours)
+• Création / Gestion compte prestataire (3 jours)
+• Gestion planning (semaine type + modifications) (2 jours)
+• Approbation prestataire par ambassadeurs (1 jour)
+",http://www.pivotaltracker.com/story/show/26192565
+27222489,choix plateforme sms,"",3,"Apr 23, 2012","Apr 29, 2012",chore,,unstarted,"Mar 29, 2012",,,Philippe Larcher,,"envoi = pas de souci
+reception = trouver un prestataire !
+
+::::: APIs  :::::
+http://api.orange.com/fr/api/sms-api
+http://www.ovh.fr/sms_et_fax/pack_sms.xml",http://www.pivotaltracker.com/story/show/27222489
+25989133,En tant que Ambassadeur je souhaite voir les disponibilités des Spécialistes dans le planning  pour la journée courante,"",3,"Apr 23, 2012","Apr 29, 2012",feature,5,unstarted,"Jun 16, 2011",,,Philippe Larcher,,"> couleur ""indispo""
+> couleur ""dispo""",http://www.pivotaltracker.com/story/show/25989133
+25989139,En tant qu'Ambassadeur je souhaite voir les réservations dans le planning Ambassade pour la journée courante,"",4,"Apr 30, 2012","May 6, 2012",feature,5,unstarted,"Jun 28, 2011",,,Philippe Larcher,,"> couleur ""rdv"" + infos",http://www.pivotaltracker.com/story/show/25989139
+25989167,En tant que Ambassadeur / Vendeur je souhaite indiquer le lieu d'exécution (ville ou Structure) lors d'une recherche d'escale,"",4,"Apr 30, 2012","May 6, 2012",feature,8,unstarted,"Jul 22, 2011",,,Philippe Larcher,,"> En tant que Ambassadeur/ vendeur, je souhaite une assistance quand je saisit un lieu d'exécution lors d'une réservation (anti doublon etc)
+> Ré-utiliser l'API de recherche de villes, afficher de 2 couleurs différentes les villes couvertes et les villes qu'on ne couvre pas.
+> ne pas etre sensible aux accents, majuscules...",http://www.pivotaltracker.com/story/show/25989167
+25989129,En tant qu'Ambassadeur je souhaite indiquer la durée du créneau recherché lors d'une recherche d'escale,"",4,"Apr 30, 2012","May 6, 2012",feature,8,unstarted,"Jun 28, 2011",,,Philippe Larcher,,"voir maquette
+> permet de ne sortir que des Spé dispos n heures d'affilée pour 1, 2 ou n soins différents",http://www.pivotaltracker.com/story/show/25989129
+25989227,"En tant que Ambassadeur, je souhaite voir les Spécialistes ok pour intervenir dans les conditions spécifiées par les différents filtres ","",4,"Apr 30, 2012","May 6, 2012",feature,5,unstarted,"Jul 22, 2011",,,Philippe Larcher,,"> ok (dispo) pour date et heure
+> ok (dispo) pour durée consécutive (créneau)
+> ok pour type de soins choisis (massage/coiffure/etc)
+> ok pour soin(s) choisi(s) 
+> ok pour tarif réduit éventuel (au dessus du minimal défini)
+> ok pour me déplacer dans une Structure (automatique en croisant les villes d'intervention du Spé et l'adresse de la Structure) ou une ville donnée
+>>> voir maquette",http://www.pivotaltracker.com/story/show/25989227,"Quid des des chaines d'hotel dans plusieurs villes ? (Guillaume Hammadi - Jul 22, 2011)","Récupération d'une liste exhautive des villes pour éviter les erreurs de saisie (Guillaume Hammadi - Jul 22, 2011)","Concernant les chaines d'hotel il faut crer plusieurs établissements. Si besoin par un meme ""proprietaire"". Plus tard on pourra aussi gérer les personnes morales, un peu comme un carnet d'adresse. (philippe larcher - Jul 22, 2011)","Pour l'instant il ya une liste déroulante en attendant l'autocomp. sur ce champs. (philippe larcher - Jul 22, 2011)"
+27148719,"En tant qu'Ambassadeur je souhaite voir les soins disponibles lorsque j'ai activé des filtres (Spécialiste, ville, type...)","",4,"Apr 30, 2012","May 6, 2012",feature,,unstarted,"Mar 28, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/27148719
+27236141,En tant que HomeSpa je souhaite appliquer une reduction tarifaire au Client ayant réservé une durée consécutive supérieure à 50 min avec un même Spécialiste sur un même lieu,"",4,"Apr 30, 2012","May 6, 2012",feature,,unstarted,"Mar 29, 2012",,,Philippe Larcher,,"système de % (voir excel)
+dynamisation +/- poussé",http://www.pivotaltracker.com/story/show/27236141
+27236183,En tant que HomeSpa je souhaite appliquer une reduction tarifaire au Client ayant réservé un soin durant une période creuse (Florès'Time),"",4,"Apr 30, 2012","May 6, 2012",feature,,unstarted,"Mar 29, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/27236183
+25989203,En tant que Ambassadeur je souhaite voir des prix TTC afin d'informer et debiter le Client,"",4,"Apr 30, 2012","May 6, 2012",feature,,unstarted,"Jul 27, 2011",,,Philippe Larcher,,"> voir excel
+
+La TVA est déduite du prix de vente saisi par le spécialiste. Le montant des commissions (et autres bonus) est entendu HT.
+Lors de la réservation, on utilise le taux de TVA du pays dans lequel le soin a lieu. Seuls les pays pour lesquels la TVA est renseignée permettent la réservation.",http://www.pivotaltracker.com/story/show/25989203,"Besoin des règles métier précises : qui paye, qui ne paye pas ? TVA sur les commissions ? sur le paiement au spécialiste ? (Guillaume Hammadi - Aug 1, 2011)","En attente de décisions de stratégie juridique et fiscale (Guillaume Hammadi - Aug 1, 2011)","Chiffré avec 2 hypothèses qui découlent de la PJ :
+- le spécialiste doit choisir son pays de facturation lors de la création de son activité
+- tous les spécialistes d'un même pays sont soumis au même régime (Guillaume Hammadi - Aug 22, 2011)","Le % de TVA change avec le pays d'exécution du soin.  (philippe larcher - Aug 22, 2011)","J'avais bien compris ça : tous les spécialistes ""d'un même pays"" sont soumis au même régime (Guillaume Hammadi - Aug 22, 2011)","La ""page spécialiste"" donne les règles de calcul incluant la TVA. Les données à afficher pourront varier mais la base de calcul sera celle-là. (philippe larcher - Aug 17, 2011)"
+25989145,En tant qu'Ambassadeur je souhaite connaitre le prix des différents créneaux disponibles lorsque je recherche une escale (ou un creneau) afin de pouvoir proposer au Client,"",4,"Apr 30, 2012","May 6, 2012",feature,5,unstarted,"Jun 28, 2011",,,Philippe Larcher,,"> si filtre de créneau activé recalculer les prix pour cette durée
+> affichage du prix directement dans l'agenda (voir maquette)",http://www.pivotaltracker.com/story/show/25989145
+25989149,En tant qu'Ambassadeur je souhaite consulter la description d'une escale afin de la présenter au client,"",4,"Apr 30, 2012","May 6, 2012",feature,3,unstarted,"Jul 8, 2011",,,Philippe Larcher,,voir maquette,http://www.pivotaltracker.com/story/show/25989149
+25989137,En tant qu'Ambassadeur je souhaite réserver une escale pour cloturer la commande,"",4,"Apr 30, 2012","May 6, 2012",feature,8,unstarted,"Jun 16, 2011",,,Philippe Larcher,,"valider tous les critères d'un rdv :
+> date heures
+> durée
+> Spé
+> lieu
+> Escale
+> Client
+> prescripteur eventuel",http://www.pivotaltracker.com/story/show/25989137
+25989135,En tant que Ambassadeur je veux choisir la durée des escale / créneaux au sein d'une liste prédéfinie par HomeSpa,"",4,"Apr 30, 2012","May 6, 2012",feature,2,unstarted,"Jun 16, 2011",,,Philippe Larcher,,"constante [15, 30, 60, 90, 120, 180] en dur pour tous les soins",http://www.pivotaltracker.com/story/show/25989135,"Et tout autre filtre utile ! (philippe larcher - Jun 21, 2011)"
+25989147,En tant qu'Ambassadeur je souhaite avoir les infos de prix lorsque je finalise une réservation afin de valider avec le client,"",4,"Apr 30, 2012","May 6, 2012",feature,3,unstarted,"Jun 28, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989147
+25989195,En tant qu'Ambassadeur / vendeur je souhaite qu'un temps de battement s'applique automatiquement entre 2 escales,à affiner (anticiper),5,"May 7, 2012","May 13, 2012",feature,13,unstarted,"Jul 4, 2011",,,Philippe Larcher,,">> Attention compatibilité avec granularité de l'interface agenda !
+
+Regle par défaut : 15 minutes entre chaque escale si déplacement :
+- à domicile : déplacement obligatoire
+- Etablissement qui ne change pas : pas de battement",http://www.pivotaltracker.com/story/show/25989195,"à préciser (poid de la story...) (philippe larcher - Aug 2, 2011)"
+26428173,En tant qu'Ambassadeur/Vendeur je souhaite indiquer le Prescripteur lors d'une réservation de soin afin qu'il soit rémunéré (et m'envoie plus de clients !),"",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Mar 14, 2012",,,Philippe Larcher,,"""n'oubliez pas le prescripteur :"" champs de saisie semi auto
+""le prescripteur est différent du lieu/structure""",http://www.pivotaltracker.com/story/show/26428173
+25989131,En tant qu'ambassadeur je souhaite CRUer un client afin de lui attribuer un rdv et lui vendre des crédits,"",5,"May 7, 2012","May 13, 2012",feature,5,unstarted,"Jun 28, 2011",,,Philippe Larcher,,"pas de Delete
+
+- saisie semi auto pour la recherche (voir maquettes)
+- tel obligatoire
+- mail obligatoire + case à cocher si pas d'email ?
+- voir maquettes",http://www.pivotaltracker.com/story/show/25989131
+25989151,En tant qu'Ambassadeur je souhaite Naviguer dans le planning de l'ambassade,"",5,"May 7, 2012","May 13, 2012",feature,3,unstarted,"Jun 28, 2011",,,Philippe Larcher,,"TRIVIAL ?
+Voir maquette",http://www.pivotaltracker.com/story/show/25989151
+25989291,En tant que HomeSpa je souhaite vérifier le n° de tel du Client afin de sécuriser l'activité,"",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Jun 24, 2011",,,Philippe Larcher,,"> envoi par email d'un code recu par sms ou envoi par sms d'un code recu par email ou reponse au sms ou dire le code à l'ambassadeur
+> si tel fixe ? normalemen ok
+",http://www.pivotaltracker.com/story/show/25989291
+25989265,"En tant que HomeSpa, je veux calculer le bonus ""disponibilité"" des Spécialistes en fonction de leur taux de disponibilité afin de les encourager à être 100% dispo","",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Jul 22, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989265
+25989269,"En tant que HomeSpa, je veux accorder un bonus automatique à un Spécialiste en fonction de sa fidélisation afin de l'encourager à adopter une attitude commerciale","",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Aug 1, 2011",,,Philippe Larcher,,règles dans excel,http://www.pivotaltracker.com/story/show/25989269
+26193133,Milestone 3 : Prise de réservation ,"",5,"May 7, 2012","May 13, 2012",release,,unstarted,"Mar 9, 2012",,"May 11, 2012",Philippe Larcher,,"Contenu :
+• Intégration et dynamisation du template (3 jours)
+• Serveur (backend) de réservation (3 jours)
+• Calcul commission (1 jour)
+",http://www.pivotaltracker.com/story/show/26193133
+25989279,"En tant que Spécialiste je souhaite recevoir un sms ""infos du rdv"" lors de la validation d'un rdv afin de ne pas être tenu de me connecter régulièrement","",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Jul 29, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989279
+26486059,En tant que Spécialiste je souhaite recevoir un SMS de rappel 1h avant le début de mon rdv afin d'être prévenu au cas ou,"",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Mar 15, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/26486059
+25989183,"En tant que Utilisateur Pro je peux consulter ma liste des réservations (passé, futur et annulé) ","",5,"May 7, 2012","May 13, 2012",feature,2,unstarted,"Aug 5, 2011",,,Philippe Larcher,,"> affichage des comm liées
+> voir doc ""liste des résas""
+
+> pté d'imprimer un état
+
+:::: Sont concernés ::::
+.structure
+.prescripteur
+.specialiste
+.ambassade
+",http://www.pivotaltracker.com/story/show/25989183,"Question liée : comment gérer l'historique des commissions de homespa, alors que cet ""acteur"" n'est pas associé  à un compte utilisateur ? (Guillaume Hammadi - Aug 8, 2011)","Le spécialiste touche 5% à domicile
+
+https://dev.alertpay.com/fr/integration-tools/api/transactionhistory-api.html (philippe larcher - Aug 11, 2011)","Transformée en historique des réservations. (Guillaume Hammadi - Aug 11, 2011)","Oui on avait bien parlé d'une liste commune pour le passé, le à venir et le annulé. Dispo si besoin de détail. (philippe larcher - Aug 11, 2011)","Pour le passé et le à venir, on a regardé et c'est pas plus compliqué. Le ""Annulé"" nécessite de creuser les stories de cumul des crédits, de redistribution des commissions... L'ajout des réservations annulées dans cette liste mérite donc une story à lui tout seul. (Guillaume Hammadi - Aug 11, 2011)","Le annulé ne sera pas inclus dans la story d'annulation donc ? (philippe larcher - Aug 11, 2011)","J'avais oublié cette story. Si. (Guillaume Hammadi - Aug 11, 2011)","Une organisation qui roule ! (philippe larcher - Aug 11, 2011)"
+25989181,En tant que Utilisateur Pro je souhaite trier/Cumuler par pers morale dans l'historique les commissions reçues afin de ?,à voir,5,"May 7, 2012","May 13, 2012",feature,2,unstarted,"Jul 13, 2011",,,Philippe Larcher,,"Visualisation du solde des crédits par pers morale
+filtre / activité ?",http://www.pivotaltracker.com/story/show/25989181,"par activité et par type de revenu ? (parrain, vendeur...) voir maquette à venir (philippe larcher - Jul 26, 2011)","Si maquette à venir, rechiffrage à venir :-p (Guillaume Hammadi - Aug 2, 2011)","On va essayer de rester dans les clous... (philippe larcher - Aug 2, 2011)","C'est vraiment top classe Pivotal ! (philippe larcher - Aug 5, 2011)"," (Guillaume Hammadi - Aug 5, 2011)"
+25989189,"En tant que Admin, je souhaite accéder à la liste de toutes les réservations de l'outil (passé, futur et annulé) ","",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Aug 22, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989189
+25989191,En tant que Admin je souhaite voir la liste de rdv d'un acteur en particulier ,"",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Aug 22, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989191
+25989293,En tant que Ambassadeur je souhaite pouvoir réserver et faire payer plusieurs soins d'un coup,"",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Jul 25, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989293
+25989205,En tant que Ambassadeur je souhaite pouvoir annuler ou modifier une réservation,"",5,"May 7, 2012","May 13, 2012",feature,8,unstarted,"Jul 22, 2011",,,Philippe Larcher,,"> Accès depuis le planning ambassadeur à la page de la réservation puis bouton ""supprimer"" avec avertissement
+> pté de supprimer une réservation depuis l'historique
+
+>  attention cas limites associés à la reconstruction des slots de disponibilité",http://www.pivotaltracker.com/story/show/25989205
+25989211,En tant qu'Ambassadeur je souhaite pouvoir activer le crédit du compte client en cas d'annulation de réservation,"",5,"May 7, 2012","May 13, 2012",feature,2,unstarted,"Aug 2, 2011",,,Philippe Larcher,,"case à cocher au moment de la suppression
+
+> recréditer le compte du client
+
+- Le crédit est affiché dans le listing des clients lors de la recherche
+- Lorsque le client réserve un nouveau soin et décide d'utiliser ses crédits, est-ce que c'est homespa qui avance le vrai argent pour les commissions ?
+- Lorsqu'un client annule une réservation, les commissions créditées aux acteurs sont-elles récupérées pour générer les crédits du client ? ",http://www.pivotaltracker.com/story/show/25989211
+25989257,"En tant qu'Ambassadeur je souhaite voir la liste des réservations  (passé, futur et annulé) d'un Client","",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Aug 2, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989257
+27160901,En tant que Admin je souhaite debiter automatiquement des credits à un Spécialiste qui n'honore pas un rdv afin de indemniser le client et sanctionner le spé,"",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Mar 28, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/27160901
+27369257,"En tant que gérant de structure d'accueil, je souhaite voir l'agenda des rdv à venir dans ma structure afin de gagner du temps","",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Apr 2, 2012",,,Philippe Larcher,,"> affichage grahique
+> voir maquette",http://www.pivotaltracker.com/story/show/27369257
+25989245,En tant que utilisateur je souhaite voir un outil graphiquement agréable,"",5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Jul 29, 2011",,,Philippe Larcher,,bootsrap sur la base des protos,http://www.pivotaltracker.com/story/show/25989245
+25989185,Spike portefeuille electronique fotolia,"",5,"May 7, 2012","May 13, 2012",chore,,unstarted,"Jul 19, 2011",,,Philippe Larcher,Philippe Larcher,"voir docs, à comparer avec les rib
+
+>> MONEYBOOKER = 1j de travail maxi pour le paiement via requête https
+>> Utiliser MB pour recevoir les paiements ? non car: ""you would not be able to fill your customers` credit card details on the payment gateway on their behalf.""
+
+>> exemple :  ""Vous pouvez recevoir votre paiement par Payoneer MasterCard™, PayPal ou Moneybookers, ou par chèque. Tous les paiements sont effectués en dollars américains (USD). Chaque fois que vous demandez un paiement, vérifiez que l’adresse e-mail incluse dans votre ticket est celle qui est associée à votre compte PayPal ou Moneybookers et que vos informations personnelles sont à jour.""",http://www.pivotaltracker.com/story/show/25989185,"Ce spike consiste à comparer la mise en place d'un e-wallet (ex ce que fait fotolia) et la mise en place d'un virement bancaire normal. La story correspondante est plus bas. Je vais initier le spike et vous demander un retour technique ensuite. (quel système est à privilégier sur le plan de la facilité technique) (philippe larcher - Aug 1, 2011)","http://www.moneybookers.com/merchant/fr/moneybookers_gateway_manual.pdf (philippe larcher - Aug 5, 2011)","Moneybookers semble compatible avec la lib qu'on souhaite utiliser pour se connecter à un système de paiment. (Guillaume Hammadi - Aug 8, 2011)","Pour faire des virements aussi ? (philippe larcher - Aug 8, 2011)","Aucune idée. Il nous faudrait un schéma des différentes étapes d'un paiement avec la/les solutions que vous envisagez. (Guillaume Hammadi - Aug 9, 2011)","Quel type de fichier peut être utilisé pour un paiement de masse?
+Veuillez vous assurer, que le fichier est du type 'délimité par une tabulation'. La structure du fichier doit être:
+1ère colonne: adresse email
+2ème colonne: devise
+3ème colonne: montant
+4ème colonne: numéro de référence ou texte (cette colonne est facultative: par exemple, vous pouvez l'utiliser pour fournir votre ID de transaction interne pour ce paiement. La longueur du texte de référence doit être jusqu'à 32 caractères!)
+Remarque: Les noms des formulaires de paiements de masse DOIVENT être uniques pour chaque paiement de masse.
+Si vous utilisez Microsoft Excel, vous pouvez créer ce fichier en remplissant les informations dans les 3 ou 4 premières colonnes, avec les informations demandées, et ensuite choisir à partir de menu 'Enregistrer sous' un fichier délimité par tabulations. (philippe larcher - Aug 9, 2011)","http://www.moneybookers.com/merchant/fr/automated_payments_interface_manual.pdf   >>page 7 (philippe larcher - Aug 9, 2011)","Banquaire : http://php4php.free.fr/quickvirprel/fichier_norme_AFB-CFONB.pdf (philippe larcher - Aug 9, 2011)","attention gpl3 https://www.ekylibre.org/site/ (philippe larcher - Aug 9, 2011)","Scénario :
+>je gagne des ""crédits""/euros avec ma/mes activités
+>lorsque mon solde dépasse XXX€ je peux demander un virement vers mon compte MB
+>si je suis en dessous du seuil je n'ai pas le bouton de demande
+>est-ce que je peux choisir le montant transféré ou c'est une simple purge ? (selon contrainte technique)
+>je reçois mon solde sur mon compte MoneyBooker
+>si le compte MB de HomeSpa n'est pas assez rempli que se passe-t-il ?
+
+Actions ""technique""
+> alimenter le compte MB (peut etre un virement bancaire manuel mais il faut avertir HomeSpa des montants du virement à effectuer +/-)
+> donner l'ordre de paiement des comptes MB (soit une fois par semaine pour toutes les demandes, soit ""on demand"", selon les ptés techniques)
+> enregistrer le virement dans les historiques (story de ""purge"" du cumul)
+
+Scénario identique avec un virement bancaire.
+> + ou - complexe que MB ? (philippe larcher - Aug 10, 2011)","alternative : https://dev.alertpay.com/index.php/integration-tools/api/sendmoney-api (philippe larcher - Aug 11, 2011)","https://dev.alertpay.com/index.php/integration-tools/api/masspay-api
+ (philippe larcher - Aug 11, 2011)","Gem MB (??) https://github.com/morgoth/moneybookers (Philippe Larcher - Apr 4, 2012)"
+26193517,"Milestone 4 : ""Suivi réservation""","",5,"May 7, 2012","May 13, 2012",release,,unstarted,"Mar 9, 2012",,"May 18, 2012",Philippe Larcher,,"Contenu :
+• Liste de réservation / annulation / modifications (2 jours)
+• Consultation planning (1)",http://www.pivotaltracker.com/story/show/26193517
+26419269,En tant que HomeSpa je souhaite appliquer une reduction tarifaire au Client ayant acheté un lot de crédits equivalent à 12 soins,paiement,5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Mar 14, 2012",,,Philippe Larcher,,ex 65€ttc à annecy,http://www.pivotaltracker.com/story/show/26419269
+25989219,En tant qu'Ambassadeur je souhaite pouvoir saisir les coordonnées bancaires du client afin de le débiter lorsqu'il achète des crédits,paiement,5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Jul 21, 2011",,,Philippe Larcher,,"- lien vers gateway ""classique"" (paypal, worldpay...)
+- réaliser le virement du prix du client vers admin
+- Notifier qui ? => ligne dans l'historique de tous les acteurs
+- Produire une facture légale ? => en cours de specification",http://www.pivotaltracker.com/story/show/25989219,"Pas d'estimation possible pour le moment. Superieur à 20 pts (Guillaume Hammadi - Aug 1, 2011)","Système de page extérieure à notre site (gateway?), récupérer des données pour enregistrer la transaction. (philippe larcher - Aug 18, 2011)","C'est à dire ? quand on valide la réservation, on se retrouve redirigé vers un site externe pour saisir les infos du client, sans aucune intégration graphique ? (Guillaume Hammadi - Aug 19, 2011)","Ca risque de finir comme ça, hormis un upload de logo, un bckground et un peu de texte...  (philippe larcher - Aug 19, 2011)","Ogone est disponible dans presque tous les pays susceptibles d'accueillir notre sté. (philippe larcher - Aug 23, 2011)","C'est une décision ? (Guillaume Hammadi - Aug 23, 2011)"
+26186249,En tant que HomeSpa je souhaite recevoir une acceptation du prix par le client via sms afin de verrouiller le contrat de vente ,paiement,5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Mar 9, 2012",,,Philippe Larcher,,"code ?
+reception du sms ?",http://www.pivotaltracker.com/story/show/26186249
+25989209,En tant que Ambassadeur je souhaite pouvoir débiter les crédits d'un Client pour valider sa réservation,paiement,5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Aug 1, 2011",,,Philippe Larcher,,possibilité de debiter en negatif mais la resa n'est validée qu'apres paiement cb correspondant ?,http://www.pivotaltracker.com/story/show/25989209,"Liée au crédit qui doit se déclencher lors d'une suppression de réservation (Guillaume Hammadi - Aug 1, 2011)"
+25989187,En tant que Acteur pro je souhaite déclencher un virement (bancaire ou ewallet) du solde disponible sur mon compte.,paiement,5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Jul 13, 2011",,,Philippe Larcher,,"- Quand les crédits disponibles dépassent un certain seuil (100€ p ex)
+- Ajouter dans l'historique des commissions reçues un bouton ""demander un virement"" qui transmet à homespa la demande avec le montant cumulé (ou un montant custom?) depuis le dernier virement effectif.
+- Ajouter une ligne dans l'historique ""virement de xxx € à la date du yyyy""
+- Remettre à 0 le cumul (solde) de commissions sans purger l'historique.",http://www.pivotaltracker.com/story/show/25989187,"Pour une activité, une personne morale ou une personne physique ? (philippe larcher - Jul 26, 2011)","Je pensais ""par activité"". C'est lié à la personne morale, non ? Dans homespa actuel :
+- personne physique <=> compte utilisateur
+- personne morale <=> SIRET, donc équivalent à activité puisqu'on associe des infos commerciales (dont SIRET) à chaque activité. Il manque un morceau ? (Guillaume Hammadi - Aug 5, 2011)","Disons qu'il serait intéressant de pouvoir avoir plusieurs activités sur une même personne morale. mais c'est une amélioration. (philippe larcher - Aug 5, 2011)","Ok. On garde donc l'approche ""par activité"" ? (Guillaume Hammadi - Aug 5, 2011)","Si une personne est à la fois spécialiste et ambassadeur, sur laquelle de ces deux activités se cumulent les commissions ""parrain"" et ""vendeur"" ? Comment voyez-vous le fonctionnement technique ? (philippe larcher - Aug 5, 2011)","Pas de parrain pour le moment.
+Comme la commission vendeur est affichée pour l'ambassadeur pour le moment, la commission ""vendeur"" lui est versée. (Guillaume Hammadi - Aug 5, 2011)","Ca permet d'avancer en effet. Il faudrait tout de même réfléchir à la suite... (philippe larcher - Aug 5, 2011)"
+25989171,En tant qu'Ambassadeur/vendeur je souhaite voir ma rémunération lors d'une commande afin de rester motivé,paiement,5,"May 7, 2012","May 13, 2012",feature,,unstarted,"Jul 8, 2011",,,Philippe Larcher,,"Lorsqu'on affiche les rémunérations associées au prix d'une escale, afficher la commission établissement si elle ne se déroule pas à domicile.",http://www.pivotaltracker.com/story/show/25989171
+26193705,Milestone 5 : Paiement et facturation,"",5,"May 7, 2012","May 13, 2012",release,,unstarted,"Mar 9, 2012",,"Jun 1, 2012",Philippe Larcher,,"• Mise en place paiement en ligne (2 jours)
+• Système facturation + export CSV factures (2 jours)
+• Historique et synthèse de commissions (2 jours)",http://www.pivotaltracker.com/story/show/26193705
+25989243,Lancement Beta rémunératrice LOT1 MVC,"",5,"May 7, 2012","May 13, 2012",release,,unstarted,"Jul 20, 2011",,"Jun 1, 2012",Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989243
+25989247,En tant que Spécialiste je souhaite indiquer mes tarifs pour les prestations dont le tarif n'est pas un tarif horaire standard ,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,"touches finales
+
+un soin = un prix !
+
+ex: epilation moustache = 12€
+
++++packages tf + soin/h",http://www.pivotaltracker.com/story/show/25989247
+25987925,en tant que User je souhaite avoir des URL user friendly afin de communiquer offline,"",,,,feature,,unscheduled,"Jul 6, 2011",,,Philippe Larcher,,"comme sur aquaflores.com, facebook, twitter, youtube ou wikipedia
+ex: aquaflores.com/minceur aquaflores.com/bulle aquaflores.com/megeve",http://www.pivotaltracker.com/story/show/25987925
+25989253,lot 1 +,"",,,,release,,unscheduled,"Aug 24, 2011",,"Jun 1, 2012",Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989253
+26186169,"En tant que Master ou Admin je veux pouvoir accorder un bonus fidélisation ""manuel"" afin de séduire un Spécialiste balaise","",,,,feature,,unscheduled,"Mar 9, 2012",,,Philippe Larcher,,"Options :
+-appliquer la fidélité maxi pour ses anciens clients (il rentre son ""fichier"" 1 par 1 ou envoie un csv)
+- appliquer la fidélité maxi tout le temps
+
+
+-importer un CSV par l'ambassadeur ou homespa ?
+-activer un mode ""entrée de clients"" par l'ambassadeur ?
+-laisser 48h pour tout saisir ?",http://www.pivotaltracker.com/story/show/26186169
+26416327,En tant que Spécialiste je souhaite désactiver certains services afin de percevoir une rémunération directe plus élevée,"",,,,feature,,unscheduled,"Mar 14, 2012",,,Philippe Larcher,,voir excel,http://www.pivotaltracker.com/story/show/26416327
+26416347,Spécialistes balaises,"",,,,release,,unscheduled,"Mar 14, 2012",,"Jun 30, 2012",Philippe Larcher,,,http://www.pivotaltracker.com/story/show/26416347
+27098547,en tant que Client je souhaite reserver une séance de machines mains libres pendant un créneau donné,"",,,,feature,,unscheduled,"Mar 27, 2012",,,Philippe Larcher,,"""j'accepte de croiser du monde sur les autres machines""",http://www.pivotaltracker.com/story/show/27098547
+27098421,en tant que Client je souhaite reserver toutes les machines mains libres pendant un creneau donné afin de ne croiser personne,"",,,,feature,,unscheduled,"Mar 27, 2012",,,Philippe Larcher,,"""je souhaite privatiser mon espace""",http://www.pivotaltracker.com/story/show/27098421
+26545717,Secret Spot (ctrl d'acces + mains libres),"",,,,release,,unscheduled,"Mar 16, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/26545717
+27221829,"systeme de ""compte et sous compte""","",,,,feature,,unscheduled,"Mar 29, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/27221829
+26545713,tablettes hotelieres,"",,,,release,,unscheduled,"Mar 16, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/26545713
+25989283,En tant qu'Ambassadeur / Vendeur je souhaite consulter l'historique d'un client afin de le conseiller de façon fine,"",,,,feature,,unscheduled,"Jul 21, 2011",,,Philippe Larcher,,"meme base que l'histo des comm, ptés de reprogrammer un soin",http://www.pivotaltracker.com/story/show/25989283
+25989281,En tant qu'Ambassadeur/vendeur je souhaite une assistance pour la recherche de client lors de la réservation afin de gagner du temps et d'éviter les erreurs,à voir,,,,feature,,unscheduled,"Jun 14, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989281
+25989295,carnet d'adresses client,"",,,,feature,,unscheduled,"Jun 16, 2011",,,Philippe Larcher,,Un client dispose d'un carnet d'adresses dans lequel l'ambassadeur peut piocher lorsqu'il réalise une réservation,http://www.pivotaltracker.com/story/show/25989295,"idée de facturation et livraison... (philippe larcher - Jun 20, 2011)"
+25989277,en tant que Recruteur je souhaite pouvoir faire des recherches dans la base de profils,"",,,,feature,,unscheduled,"Aug 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989277
+25989275,Voir le format pour de la géolocalisation depuis les SMS,"",,,,chore,,unscheduled,"Jul 4, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989275
+25989285,Bons cadeau,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989285
+25989287,Minigroup : réduction liée au nombre de clients sur un rendez-vous,"",,,,feature,,unscheduled,"Jul 4, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989287
+25989289,En tant qu'Ambassadeur je veux personnaliser les conditions et taux de reduction/majoration du prix de vente pour mon Ambassade,"",,,,feature,,unscheduled,"Jul 21, 2011",,,Philippe Larcher,,"Flores Time, hors saison, nuit...",http://www.pivotaltracker.com/story/show/25989289
+25989261,A VOIR En tant qu'Ambassadeur je veux pourvoir regler la commissions par défaut d'un établissement en equilibrant la balance freelance / etablissement,à voir,,,,feature,,unscheduled,"Aug 1, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989261
+25989297,A VOIR gérer proprement le changement d'ambassade,à voir,,,,feature,,unscheduled,"Jul 29, 2011",,,Philippe Larcher,,"pendant la transition : commission pour l'ancien ambassadeur, gestion au nouveau",http://www.pivotaltracker.com/story/show/25989297
+25989267,"A VOIR En tant qu'Ambassadeur, je veux pouvoir negocier la commission de chaque établissement en retranchant de ma propre comm.",à voir,,,,feature,,unscheduled,"Aug 1, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989267
+25989271,"A VOIR En tant qu'Ambassadeur, je veux personnaliser les commissions pour les différents cas selon les possibilités offertes par HomeSpa",à voir,,,,feature,,unscheduled,"Jul 21, 2011",,,Philippe Larcher,,Pour rentrer des freelances avec leur clientèle. priorité : etre capable dassocier une liste de clients à un freelance pour debrayer,http://www.pivotaltracker.com/story/show/25989271,"Besoin de plus de précisions. 1 story par règle métier (Guillaume Hammadi - Aug 1, 2011)","Ok, je m'en occupe, tu valideras (philippe larcher - Aug 1, 2011)"
+25989299,Sortir de Megève dans le respect du modèle économique,"",,,,release,,unscheduled,"Jul 20, 2011",,"May 20, 2012",Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989299
+25989301,Voir mes factures,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989301
+25989303,fidélité,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989303
+25989305,Upload et validation des docs administratif,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989305
+25989307,Gérer des salariés,"",,,,feature,,unscheduled,"Jul 20, 2011",,,Philippe Larcher,,pouvoir créer des salariés sur le modèle des freelances et les associer à une activité ambassade ou etablissement.,http://www.pivotaltracker.com/story/show/25989307
+25989309,En tant que spécialiste je souhaite pouvoir bénéficier d'une assurance annulation,"",,,,feature,,unscheduled,"Jul 29, 2011",,,Philippe Larcher,,noshow / indemnités pour annulation tardive,http://www.pivotaltracker.com/story/show/25989309,"Paiement du Conducteur
+Le Passager dispose d'un délai de 15 jours (quinze jours calendaires) pour confirmer expressément à Comuto que le voyage a été effectué. A l'issue de ce délai, et en l'absence de confirmation ou de contestation par le Passager, Comuto considère que la confirmation par le Passager est implicite.
+A compter de cette confirmation expresse ou tacite, le Conducteur dispose d'un crédit exigible sur son Compte Utilisateur. Ce crédit correspond au montant payé par le Passager diminué des Frais de Service.
+Lorsque le trajet est validé par le passager, le Conducteur peut donner une instruction afin d'être payé. Comuto transmet les ordres de paiement le 1er, 10 et 20 de chaque mois.
+A cet effet, le Conducteur communique à Comuto les informations bancaires présentes sur son Relevé d'Identité Bancaire ou Relevé d'Identité Postale, permettant le virement sur son compte. Cette information est exclusivement à renseigner par le membre sur la page « Mon profil » > « Mes coordonnées bancaires »
+En aucun cas, Comuto ne versera la somme due autrement que par virement bancaire, excluant de fait tout paiement en numéraire ou par chèque.
+Comuto n'est en aucun cas responsable ou garant à l'égard du Conducteur d'un incident de paiement si, pour quelque cause que ce soit, la somme payée par le Passager venait à devoir être reversée notamment en cas d'opposition sur la carte ou d'utilisation frauduleuse. Le Conducteur s'oblige à restituer à Comuto à première demande toute somme reçue remise en cause du fait d'un tel incident de paiement. (philippe larcher - Aug 2, 2011)","II.8 Gestion des litiges entre Membres
+Comuto met à la disposition de ses Membres un service en ligne de règlement des litiges. Ce service est notamment destiné à régler les contestations relatives aux annulations des Réservations.
+Le service de règlement des litiges n'a pas d'obligation de résultat quant à trouver une solution aux litiges entre ses Membres.
+Si aucune solution n'est trouvée au litige opposant le Passager au Conducteur, Comuto se réserve le droit de retenir les sommes payées par le Passager jusqu'à un accord amiable entre le Passager et le Conducteur ou une décision judiciaire définitive. (philippe larcher - Aug 2, 2011)"
+25989311,Gérer les grandes ambassades,"",,,,release,,unscheduled,"Jul 20, 2011",,"Aug 21, 2011",Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989311
+25989313,"En tant que Client, depuis un email je veux valider une préinscription pour obtenir un compte connecté aux infos client pré-remplies par mon ambassadeur","",,,,feature,,unscheduled,"Jun 29, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989313
+25989315,en tant que client je veux créer mon compte,"",,,,feature,,unscheduled,"Jul 29, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989315
+25989317,En tant que Client je veux reserver un soin,"",,,,feature,,unscheduled,"Jul 29, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25989317
+25987887,En tant que Client je veux reserver un soin,"",,,,feature,,unscheduled,"Jul 29, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987887
+25987889,en tant qu'ambassadeur je veux valider un soin réservé par un client,"",,,,feature,,unscheduled,"Jul 29, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987889
+25987891,En tant que spécialiste je veux avoir une photo de profil,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987891
+25987893,Système de reviews,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987893
+25987895,vendeur,"",,,,feature,,unscheduled,"Aug 8, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987895
+25987897,mur multimedia pour les profils,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,obj: referencement et vitrine vivante,http://www.pivotaltracker.com/story/show/25987897
+25987899,"Réservation par tout les acteurs (Spécialiste, partenaire, client)","",,,,release,,unscheduled,"Jul 20, 2011",,"Sep 30, 2011",Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987899
+25987901,Voir des suggestions avant et pendant la recherche,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,amélioration : suggestions ciblées et contextuelles,http://www.pivotaltracker.com/story/show/25987901
+25987903,notifier un partenaire d'une résa dans son établissement,"",,,,feature,,unscheduled,"Aug 23, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987903
+25987905,faire valider par un partenaire une résa dans son établissement,"",,,,feature,,unscheduled,"Aug 23, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987905
+25987907,Pré-remplissage du nom d'un futur client si on vient d'une recherche infructueuse,"",,,,feature,,unscheduled,"Jun 28, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987907
+25987909,Fusionner planning et recherche de créneaux,"",,,,feature,,unscheduled,"Jun 28, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987909
+25987911,Autocompletion lors d'une recherche de soin,"",,,,feature,,unscheduled,"Jul 6, 2011",,,Philippe Larcher,,"Rechercher sur tag/mot clef/attribut
+Filtrer
+Avoir un panier de filtres",http://www.pivotaltracker.com/story/show/25987911
+25987913,Possibilité d'avoir plusieurs journées types affectées à des périodes,"",,,,feature,,unscheduled,"Jun 23, 2011",,,Philippe Larcher,,voir balsamics,http://www.pivotaltracker.com/story/show/25987913
+25987915,Pouvoir débuter le process de réservation en cliquant depuis le planning avec une granularité d'1/4 d'h,"",,,,feature,,unscheduled,"Jun 23, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987915
+25987917,Amélioration de la recherche dynamique de Spécialistes/Escales par lieu,"",,,,feature,,unscheduled,"Jul 6, 2011",,,Philippe Larcher,,affichage en gris/rouge des villes où on ne va pas et en vert et en haut des villes où on va dans la zone d'autocomp.,http://www.pivotaltracker.com/story/show/25987917
+25987919,Réservation détaillée d'un soin,"",,,,feature,5,unscheduled,"Jun 28, 2011",,,Philippe Larcher,,"éléments à ajouter :
+> cases à cocher / déroulantes
+> champs libres
+",http://www.pivotaltracker.com/story/show/25987919,"où est passée la saisie de l'adresse exacte +commentaire ??? (philippe larcher - Aug 8, 2011)","dans la demo (philippe larcher - Aug 8, 2011)","Erreur de manip sans doutes. Je joins la maquette pour corriger ça. (Guillaume Hammadi - Aug 9, 2011)"," (Guillaume Hammadi - Aug 9, 2011)"
+25987921,Gérer le temps de traffic,"",,,,feature,,unscheduled,"Jul 4, 2011",,,Philippe Larcher,,"Exemple : De 16h à 17h30 ajouter 10 min au temps de battement
+Pendant la nuit : diminuer le temps de battement",http://www.pivotaltracker.com/story/show/25987921
+25987923,Gestion d'attributs structurés en plus des Synergies,"",,,,feature,,unscheduled,"Jun 14, 2011",,,Philippe Larcher,,voir tableau excel BDD catalogue des soins,http://www.pivotaltracker.com/story/show/25987923
+25987927,Définir des créneaux horaires sélectifs,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,"collectif/particulier, domicile/etablissement",http://www.pivotaltracker.com/story/show/25987927
+25987929,ajouter le quartier/secteur à une réservation,"",,,,feature,,unscheduled,"Jun 14, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987929,"permet de savoir ou la réservation se déroule de manière ""subjective"" et non sur une base purement n°/rue. ex : campus, centre, sassenage et meylan (Guillaume Hammadi - Jul 8, 2011)"
+25987931,Suivi santé:bien etre,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987931
+25987933,stats,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987933
+25987935,En tant qu'Ambassadeur je souhaite pouvoir reprogrammer un soin présent dans l'historique d'un client,"",,,,feature,,unscheduled,"Aug 1, 2011",,,Philippe Larcher,,"aujourd'hui, ds 30 min, meme spécialiste, meme escale",http://www.pivotaltracker.com/story/show/25987935
+25987937,Rechercher un soin par son nom,"",,,,feature,,unscheduled,"Jul 4, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987937
+26417511,face game,"",,,,feature,,unscheduled,"Mar 14, 2012",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/26417511
+25987939,Confort et productivité,"",,,,release,,unscheduled,"Jul 20, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987939
+25987941,En tant que Spécialiste je veux pouvoir organiser des soins chez moi,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987941
+25987943,En tant qu'Ambassadeur je souhaite voir la liste des ex-Ambassades d'un Spécialiste quand je consulte son profil.,"",,,,feature,,unscheduled,"Jul 22, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987943
+25987945,Un spécialiste reçoit des mails de validation lors d'une réservation,"",,,,feature,,unscheduled,"Jun 29, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987945
+25987947,"Ne plus proposer ""démarrer mon activité"" quand un utilisateur est déjà spécialiste ou ambassadeur","",,,,feature,,unscheduled,"Jul 4, 2011",,,Philippe Larcher,,"Comportement à spécifier complètement, ca fait partie de la mission ""navigation"" de Robertson.",http://www.pivotaltracker.com/story/show/25987947
+25987949,FB connect,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987949
+25987951,"classement par ""commissions destinées à Homespa"" décroissantes des Spécialistes dans les résultats de recherche ou le planning","",,,,feature,,unscheduled,"Jun 23, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987951
+25987953,proposer un produit pour le catalogue centralisé,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987953
+25987955,extraction fichier client + envoi de masse,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987955
+25987957,Organisation de minigroups,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,doodle...,http://www.pivotaltracker.com/story/show/25987957
+25987959,Rechercher un soin par mot-clé dans sa description,"",,,,feature,,unscheduled,"Jul 4, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987959,"Il s'agit plutot de filtrer ! (philippe larcher - Jul 6, 2011)"
+25987961,monitoring des ambassades pour le master et pour homespa,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987961
+25987963,En tant qu'Ambassadeur je veux choisir mon Master Ambassadeur,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987963
+25987965,pté detre parrain sans etre un autre pro ?,"",,,,feature,,unscheduled,"Jul 29, 2011",,,Philippe Larcher,,peut etre faisable avec un spécialiste sans ambassade ?,http://www.pivotaltracker.com/story/show/25987965
+25987967,CMS,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987967
+25987969,En tant que MasterAmbassadeur je souhaite pouvoir inviter un Ambassadeur dans mon Groupe,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987969
+25987971,En tant que Spécialiste je peux changer d'Ambassade depuis mon tableau de bord,"",,,,feature,,unscheduled,"Jul 20, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987971
+25987973,En tant qu'Ambassadeur je souhaite pouvoir inviter un Freelance dans mon Ambassade,"",,,,feature,,unscheduled,"Jul 26, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987973
+25987975,Un spécialiste a un lieu d'intervention principal,"",,,,feature,,unscheduled,"Jun 15, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987975,"A quoi sert cette notion ? (Guillaume Hammadi - Jun 15, 2011)","à lui proposer des ambassadeurs vers chez lui par exemple :) (philippe larcher - Jun 20, 2011)","Ce qui ne fonctionne plus dans le système actuel d'ailleurs... (philippe larcher - Jun 20, 2011)"
+25987977,Ajouter la notion de compétence principale (spécialité) à un spécialiste,"",,,,feature,,unscheduled,"Jun 14, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987977,"Classer les résultats de recherche en faisant remonter les spécialistes dont le soin recherché est la compétence principale. (Guillaume Hammadi - Jun 15, 2011)","voir la ""spécialité"" de chacun quand on recherche un créneau horaire (philippe larcher - Jun 20, 2011)"
+25987979,A reflechir,"",,,,release,,unscheduled,"Jul 29, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987979
+25987981,Un établissement extérieur accepte un parrainage,"",,,,feature,5,unscheduled,"Jul 22, 2011",,,Philippe Larcher,,L'invité clique sur le lien du mail et créée son établissement dans la foulée,http://www.pivotaltracker.com/story/show/25987981
+25987983,Gestion des invitations de parrainage,"",,,,feature,,unscheduled,"Jul 22, 2011",,,Philippe Larcher,,"Voir les invitations acceptées et refusées et en cours
+Relancer",http://www.pivotaltracker.com/story/show/25987983,"Utile mais essentiels/prioritaire ? (philippe larcher - Jul 22, 2011)"
+25987985,Regrouper état civil et compte,"",,,,feature,,unscheduled,"Jun 29, 2011",,,Philippe Larcher,,"mission ""nav"" de Robtsn",http://www.pivotaltracker.com/story/show/25987985
+25987987,Modifier le spécialiste associé à une réservation,"",,,,feature,,unscheduled,"Jul 22, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987987
+25987989,Modifier la date d'une réservation,"",,,,feature,,unscheduled,"Jul 22, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987989
+25987991,Modifier l'heure d'une réservation,"",,,,feature,5,unscheduled,"Jul 22, 2011",,,Philippe Larcher,,On ne peut modifier l'heure que si c'est dans une même journée,http://www.pivotaltracker.com/story/show/25987991
+25987993,"Modifier le ""type d'activité"" (et le prix) d'une réservation","",,,,feature,,unscheduled,"Jul 22, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987993,"En fait il s'agit là de changer le soin (escale) car un meme soin ne peux appartenir qu'à une seule activité ! (philippe larcher - Jul 22, 2011)"
+25987995,Modifier le lieu de la réservation,"",,,,feature,,unscheduled,"Jul 22, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25987995
+25987997,Changement du mécanisme des durées des escales 2.0,"",,,,feature,,unscheduled,"Jun 28, 2011",,,Philippe Larcher,,"Certaines escales ne peuvent pas durer certains temps
+On souhaite afficher un temps différent de ce qui est réservé pour intégrer le temps d'installation du spécialiste",http://www.pivotaltracker.com/story/show/25987997,"Attention au multisoin à venir dans la définition des outils de filtrage de durée et recherche de créneau. Conception en cours avec Robertson... (philippe larcher - Jul 6, 2011)"
+25987999,Envoi d'une invitation de parrainage,"",,,,feature,2,unscheduled,"Jul 22, 2011",,,Philippe Larcher,,Un pro homespa envoie une invitation pour une inscription parrainée à quelqu'un par mail,http://www.pivotaltracker.com/story/show/25987999
+25988001,Afficher le jour courant sur le planning,"",,,,feature,,unscheduled,"Jul 4, 2011",,,Philippe Larcher,,????,http://www.pivotaltracker.com/story/show/25988001
+25988003,Affichage du planning à la date adéquate à la fin d'une réservation,"",,,,feature,3,unscheduled,"Jun 28, 2011",,,Philippe Larcher,,comportement à confirmer,http://www.pivotaltracker.com/story/show/25988003
+25988005,Cliquer sur une réservation dans le planning conduit à sa page,"",,,,feature,,unscheduled,"Jul 4, 2011",,,Philippe Larcher,,???,http://www.pivotaltracker.com/story/show/25988005
+25988007,"Ajouter un lien ""retour au planning du  jour"" à la fin de la réservation","",,,,feature,,unscheduled,"Jul 4, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25988007
+25988009,Un établissement peut choisir sa ville parmis toutes celles couvertes par toutes les ambassades (?),"",,,,feature,5,unscheduled,"Jul 22, 2011",,,Philippe Larcher,,j'ai peur au gaspillage avec cette story !!,http://www.pivotaltracker.com/story/show/25988009,"Un établissement n'a qu'une seule adresse ! (philippe larcher - Jul 22, 2011)","En attendant une autocomp avec toutes les villes de France bien orthographiées, il choisit dans une liste exhaustive (cumul des Ambassades) (philippe larcher - Jul 22, 2011)","Une saisie semi auto basée sur le système des ""places"" serait gaspillée ? ou un bon préalable à une saisie semi auto sur le système API ? (philippe larcher - Jul 26, 2011)","Story inutile du fait des nouvelles (philippe larcher - Aug 2, 2011)"
+25988011,à éclaircir,"",,,,release,,unscheduled,"Jul 29, 2011",,,Philippe Larcher,,,http://www.pivotaltracker.com/story/show/25988011
